@@ -7,6 +7,6 @@ let div = document.getElementById("output")
 		  },1000)
 	  })
   }
-getdata.then((data)=>{
+getdata().then((data)=>{
 	div.innerText = data;
 })
